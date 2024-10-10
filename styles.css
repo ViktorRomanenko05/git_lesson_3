@@ -154,3 +154,11 @@ input[type="radio"] {
 #reset-clicker:hover {
     background-color: #FF8A65;
 }
+
+.onMinus:hover {
+    background-color: grey;
+}
+
+.onPlus:hover {
+    background-color: grey;
+}
