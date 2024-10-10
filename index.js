@@ -32,12 +32,16 @@ const changeSystemFunction = () => {
 colorDisplayFunction = () => {
     if (counter < 0){
         display.style.color = "#FF073A";
+        display.style.textShadow = "0px 0px 8px #FF073A";
     }
     else if (counter === 0 ){
         display.style.color = "#00FFFF";
+        display.style.textShadow = "0px 0px 8px #00FFFF";
     }
     else {
         display.style.color = "#00FF00";
+        display.style.textShadow = "0px 0px 8px #00FF00";
+
     }
 }
 
