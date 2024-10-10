@@ -129,6 +129,7 @@ li {
     background-color: #FF5A30;
     border-radius: 50%;
     border-color: green;
+    cursor: pointer;
 }
 
 h2 {
