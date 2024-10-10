@@ -50,6 +50,7 @@ const resetFunction = () => {
     modifiedCounter = 0;
     display.textContent = "0";
     display.style.color = "#00FFFF";
+    display.style.textShadow = "0px 0px 8px #00FFFF";
 
 }
 
