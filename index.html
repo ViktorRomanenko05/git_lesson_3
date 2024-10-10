@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <script src="./index.js" defer></script>
+</head>
+<body>
+<div id="root">
+    <main>
+        <div class="counter-wrapping">
+            <h2 id="counterName">GEEK COUNTER</h2>
+            <p class="counter-display">0</p>
+            <div id = "change-buttons">
+            <button class="onMinus button">-</button>
+            <button class="onPlus button">+</button>
+            </div>
+            <div class = "radios">
+                <label id ="reset-label">
+               <button id = "reset-clicker"></button> RESET
+                </label>
+            <form id = "choice-system">
+                <label class = "radio-label">
+                    <input type="radio" name="system" value="binary" class = "select-radio"> bin
+                </label>
+                <label class = "radio-label">
+                    <input type="radio" name="system" value="octal"> oct
+                </label>
+                <label class = "radio-label">
+                    <input type="radio" name="system" value="decimal" checked> dec
+                </label>
+                <label class = "radio-label">
+                    <input type="radio" name="system" value="hexadecimal"> hex
+                </label>
+            </form>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>

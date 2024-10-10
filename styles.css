@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F8FF;
+    height: 100%;
+    gap: 30px;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    background-image: url("./images/pexels-padrinan-3520692.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.counter-wrapping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    background-color: #3e3e3e;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 8px darkgray;
+    padding: 30px;
+    text-align: center;
+    border: black solid 1px;
+}
+
+.counter-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 75px;
+    background-color: #0b191d;
+    border-radius: 6px;
+    padding: 30px;
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Orbitron', monospace;
+    color: #00FFFF;
+    border: black solid 6px;
+    box-shadow: inset 0px 0px 8px cadetblue;
+}
+
+#change-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.onMinus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+    border-color: green;
+    color: blue;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 12px lightgray;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.onPlus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+    border-color: green;
+    color: red;
+    margin-bottom: 70px;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 12px lightgray;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.radios{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+#reset-clicker{
+    width: 20px;
+    height: 20px;
+    background-color: #FF5A30;
+    border-radius: 50%;
+
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    color: green;
+}
+
+input[type="radio"] {
+    accent-color: green;
+    cursor: pointer;
+}
+
+.radio-label{
+    color: darkgray;
+}
+
+#reset-label{
+    color: #FF8A65;
+}
+
+
+#reset-clicker:hover {
+    background-color: #FF8A65;
+}
