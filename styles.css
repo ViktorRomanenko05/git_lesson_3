@@ -70,6 +70,7 @@ li {
     text-shadow: 0px 0px 8px #00FFFF;
     border: black solid 6px;
     box-shadow: inset 0px 0px 8px cadetblue;
+    transition: 0.7s;
 }
 
 #change-buttons {
