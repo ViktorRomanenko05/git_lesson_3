@@ -7,7 +7,7 @@ const resetButton = document.querySelector("#reset-clicker");
 const radios = systemChoice.elements["system"];
 
 let counter = 0;
-let modifiedCounter = counter;
+let modifiedCounter;
 
 const changeSystemFunction = () => {
     let selectedRadio = Array.from(radios).find(radio => radio.checked).value;

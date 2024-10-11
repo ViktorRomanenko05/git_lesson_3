@@ -65,7 +65,7 @@ li {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 40px;
-    font-family: 'Orbitron', monospace;
+    font-family: 'Digital7', monospace;
     color: #00FFFF;
     text-shadow: 0px 0px 8px #00FFFF;
     border: black solid 6px;
@@ -163,4 +163,9 @@ input[type="radio"] {
 
 .onPlus:hover {
     background-color: grey;
+}
+
+@font-face {
+    font-family: 'Digital7';
+    src: url('fonts/digital-7.ttf');
 }
