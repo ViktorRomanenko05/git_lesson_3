@@ -109,7 +109,7 @@ li {
     border-radius: 6px;
     border-color: green;
     color: green;
-    margin-bottom: 70px;
+    margin-bottom: 15px;
     font-size: 40px;
     cursor: pointer;
     box-shadow: inset 0px 0px 12px lightgray;
@@ -122,6 +122,7 @@ li {
     display: flex;
     justify-content: space-between;
     width: 350px;
+    margin-top: 30px;
 }
 
 #reset-clicker{
@@ -164,6 +165,52 @@ input[type="radio"] {
 
 .onPlus:hover {
     background-color: grey;
+}
+.timer-buttons-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.plus-time-buttons, .start-timer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 79px;
+    height: 25px;
+    border-color: green;
+    border-radius: 6px;
+    background-color: #5c80a3;
+    cursor: pointer;
+}
+
+.plus-time-buttons:hover {
+    background-color: #8896a3;
+}
+
+#start-button{
+    background-color: #ddc26d;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #D3C39A;
+}
+
+button:disabled {
+    border-color: #FFAA33;
+    cursor: not-allowed;
+}
+
+#reset-clicker:disabled {
+    border-color: #FFAA33;
+    cursor: not-allowed;
+}
+
+#start-button:disabled {
+    border-color: #FFAA33;
+    cursor: not-allowed;
 }
 
 @font-face {
